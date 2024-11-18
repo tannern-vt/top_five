@@ -19,6 +19,6 @@ def home():
             submissions.append({"category": category, "five": items})
         return redirect("/")
     return render_template("index.html", submissions=submissions)
-
+# comment for assignment
 if __name__ == "__main__":
     app.run(debug=True)
